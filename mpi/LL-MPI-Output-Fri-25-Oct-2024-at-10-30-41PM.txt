@@ -1,0 +1,8 @@
+Performance Results
+Size: 20x20
+Steps: 10
+Temperature: 0.5
+Processes: 1
+Runtime: 0.06s
+Final order: 0.368
+Final energy: -1090.929
