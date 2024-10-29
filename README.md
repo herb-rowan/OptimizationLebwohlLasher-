@@ -26,7 +26,7 @@ Before you begin, make sure you have the following:
 
 Use the following command to install the necessary packages:
 
-```bash
+
 pip install numpy cython
 ## Steps to Run the Project
 
@@ -119,9 +119,9 @@ Make sure `batch.sh` is correctly set up for your file and parameters.
 - Open a terminal and navigate to the directory containing `batch.sh`.
 - Submit the job with the following command:
 
-    ```bash
+
     sbatch batch.sh
-    ```
+
 
 This will send the job to the scheduler, which will queue and execute it on the cluster.
 
@@ -195,7 +195,7 @@ Ensure that `lebwohl_lasher_benchmark.sh` is configured correctly for your needs
 
 Navigate to the directory containing `lebwohl_lasher_benchmark.sh` and submit the job using:
 
-```bash
+
 sbatch lebwohl_lasher_benchmark.sh
 
 # BCmpi_updated
