@@ -89,7 +89,7 @@ Make sure `batch.sh` is correctly set up for your file and parameters.
 
 - **Example `batch.sh` setup**:
 
-    ```bash
+
     #!/bin/bash
     # ======================
     # SLURM batch script
@@ -129,7 +129,7 @@ This will send the job to the scheduler, which will queue and execute it on the 
 
 To monitor the status of your job, use:
 
-```bash
+
 squeue -u your_username
 
 
@@ -157,7 +157,7 @@ Ensure that `lebwohl_lasher_benchmark.sh` is configured correctly for your needs
 
 - **Example `lebwohl_lasher_benchmark.sh` setup**:
 
-    ```bash
+
     #!/bin/bash
     # =================
     # lebwohl_lasher_benchmark.sh
@@ -224,7 +224,7 @@ Ensure that `lebwohl_lasher_benchmark_long.sh` is configured correctly for your 
 
 - **Example `lebwohl_lasher_benchmark_long.sh` setup**:
 
-    ```bash
+
     #!/bin/bash
     # =================
     # lebwohl_lasher_benchmark.sh
@@ -277,7 +277,7 @@ Ensure that `lebwohl_lasher_benchmark_long.sh` is configured correctly for your 
 
 Navigate to the directory containing `lebwohl_lasher_benchmark_long.sh` and submit the job using:
 
-```bash
+
 sbatch lebwohl_lasher_benchmark_long.sh
 
 
@@ -311,7 +311,7 @@ You need to compile `LebwohlLasher_full.pyx` to generate a `.so` file for the Cy
 - Open a terminal in the directory containing `setup.py`.
 - Run the following command:
 
-    ```bash
+
     python setup.py build_ext --inplace
     ```
 
@@ -323,7 +323,7 @@ After compiling the Cython extension, you can run the benchmark script to test p
 
 In the terminal, run:
 
-```bash
+
 python benchmark_full.py
 
 
@@ -356,7 +356,7 @@ You need to compile `ll_parallel.pyx` to generate a `.so` file for the Cython ex
 - Open a terminal in the directory containing `setup.py`.
 - Run the following command:
 
-    ```bash
+
     python setup.py build_ext --inplace
     ```
 
@@ -368,5 +368,5 @@ Once the Cython extension is compiled, you can run the timing script to measure 
 
 In the terminal, execute:
 
-```bash
+
 python run_parallel_timing.py
