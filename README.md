@@ -87,32 +87,7 @@ Ensure the HPC environment has:
 
 Make sure `batch.sh` is correctly set up for your file and parameters.
 
-- **Example `batch.sh` setup**:
 
-
-    #!/bin/bash
-    # ======================
-    # SLURM batch script
-    # ======================
-
-    #SBATCH --job-name=test_job
-    #SBATCH --partition=teach_cpu
-    #SBATCH --account=PHYS033185
-    #SBATCH --nodes=1
-    #SBATCH --ntasks-per-node=1
-    #SBATCH --cpus-per-task=1
-    #SBATCH --time=0:0:10
-    #SBATCH --mem=100M
-
-    # Load the required module
-    module add languages/python/3.12.3
-
-    # Navigate to the directory where the job is submitted
-    cd $SLURM_SUBMIT_DIR
-
-    # Run the benchmark script
-    python benchmark_ll.py
-    ```
 
 ### 2. Submit the Job to the Cluster
 
@@ -158,38 +133,7 @@ Ensure that `lebwohl_lasher_benchmark.sh` is configured correctly for your needs
 - **Example `lebwohl_lasher_benchmark.sh` setup**:
 
 
-    #!/bin/bash
-    # =================
-    # lebwohl_lasher_benchmark.sh
-    # =================
-
-    #SBATCH --job-name=ll_benchmark
-    #SBATCH --partition=teach_cpu
-    #SBATCH --account=PHYS033185
-    #SBATCH --nodes=4
-    #SBATCH --ntasks-per-node=4
-    #SBATCH --cpus-per-task=1
-    #SBATCH --time=00:30:00
-    #SBATCH --mem-per-cpu=2G
-
-    # Load required modules
-    module add languages/python/3.12.3
-
-    cd $SLURM_SUBMIT_DIR
-
-    # Create results directory if it doesn't exist
-    mkdir -p benchmark_results
-
-    # Run benchmarks with different numbers of processes
-    for NPROCS in 1 2 4 8 16
-    do
-        echo "Running benchmark with $NPROCS processes"
-        mpiexec -n $NPROCS python ll_benchmark_hpc_vectorized.py $NPROCS
-    done
-
-    # Generate plots from all results
-    python plot_benchmark_results.py
-    ```
+   
 
 ### 2. Submit the Job to the Cluster
 
@@ -224,55 +168,7 @@ Ensure that `lebwohl_lasher_benchmark_long.sh` is configured correctly for your 
 
 - **Example `lebwohl_lasher_benchmark_long.sh` setup**:
 
-    bash'''
-    #!/bin/bash
-    # =================
-    # lebwohl_lasher_benchmark.sh
-    # =================
-
-    #SBATCH --job-name=ll_bench
-    #SBATCH --partition=teach_cpu
-    #SBATCH --account=PHYS033185
-    #SBATCH --nodes=4
-    #SBATCH --ntasks-per-node=4
-    #SBATCH --cpus-per-task=1
-    #SBATCH --time=0:30:00
-    #SBATCH --mem-per-cpu=2G
-
-    # Print debug information
-    echo "Current directory: $(pwd)"
-    echo "Directory contents:"
-    ls -l
-
-    # Load required modules
-    module purge  # Clear any existing modules
-    module load languages/python/3.12.3
-    echo "Python path: $(which python)"
-    echo "Python version: $(python --version)"
-
-    cd $SLURM_SUBMIT_DIR
-    echo "SLURM directory: $SLURM_SUBMIT_DIR"
-    echo "Directory contents after cd:"
-    ls -l
-
-    # Create results directory if it doesn't exist
-    mkdir -p benchmark_results
-
-    # List all Python scripts to verify they exist
-    echo "Python scripts in directory:"
-    ls -l *.py
-
-    # Run benchmarks with different numbers of processes
-    for NPROCS in 1 2 4 8 16
-    do
-        echo "Running benchmark with $NPROCS processes"
-        mpiexec -n $NPROCS python ll_benchmark_hpc.py $NPROCS
-    done
-
-    # Generate plots from all results
-    python plot_benchmark_results.py
-    ```
-
+   
 ### 2. Submit the Job to the Cluster
 
 Navigate to the directory containing `lebwohl_lasher_benchmark_long.sh` and submit the job using:
