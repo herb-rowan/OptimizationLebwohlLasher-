@@ -1,0 +1,25 @@
+Lebwohl-Lasher Quick Test Results
+==============================
+
+Performance Analysis:
+-------------------
+
+Lattice Size 10x10:
+  1 processes: 0.002 s (speedup: 1.00x, efficiency: 100.00%)
+  4 processes: 0.001 s (speedup: 1.62x, efficiency: 40.53%)
+  16 processes: 0.012 s (speedup: 0.15x, efficiency: 0.93%)
+
+Lattice Size 20x20:
+  1 processes: 0.006 s (speedup: 1.00x, efficiency: 100.00%)
+  4 processes: 0.002 s (speedup: 2.75x, efficiency: 68.63%)
+  16 processes: 0.009 s (speedup: 0.67x, efficiency: 4.17%)
+
+Lattice Size 50x50:
+  1 processes: 0.035 s (speedup: 1.00x, efficiency: 100.00%)
+  4 processes: 0.011 s (speedup: 3.19x, efficiency: 79.66%)
+  16 processes: 0.012 s (speedup: 3.01x, efficiency: 18.83%)
+
+Lattice Size 100x100:
+  1 processes: 0.141 s (speedup: 1.00x, efficiency: 100.00%)
+  4 processes: 0.044 s (speedup: 3.22x, efficiency: 80.57%)
+  16 processes: 0.020 s (speedup: 6.87x, efficiency: 42.91%)

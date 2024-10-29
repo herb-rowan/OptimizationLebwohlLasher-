@@ -1,0 +1,97 @@
+Lebwohl-Lasher Size Scaling Analysis
+=================================
+
+
+Lattice Size 50x50:
+----------------------------------------
+ Processes     Time (s)   Iterations
+         1        0.830           20
+         2        0.404           20
+         4        0.256           20
+         8        0.170           20
+        16        0.307           20
+
+Speedup Analysis:
+  1 processes:   1.00x speedup (100.0% efficiency)
+  2 processes:   2.05x speedup (102.6% efficiency)
+  4 processes:   3.24x speedup ( 81.1% efficiency)
+  8 processes:   4.88x speedup ( 61.0% efficiency)
+ 16 processes:   2.70x speedup ( 16.9% efficiency)
+
+
+Lattice Size 100x100:
+----------------------------------------
+ Processes     Time (s)   Iterations
+         1        2.385           15
+         2        1.195           15
+         4        0.709           15
+         8        0.367           15
+        16        0.321           15
+
+Speedup Analysis:
+  1 processes:   1.00x speedup (100.0% efficiency)
+  2 processes:   2.00x speedup ( 99.8% efficiency)
+  4 processes:   3.37x speedup ( 84.1% efficiency)
+  8 processes:   6.51x speedup ( 81.3% efficiency)
+ 16 processes:   7.44x speedup ( 46.5% efficiency)
+
+
+Lattice Size 200x200:
+----------------------------------------
+ Processes     Time (s)   Iterations
+         1        6.530           10
+         2        3.165           10
+         4        1.843           10
+         8        0.940           10
+        16        0.531           10
+
+Speedup Analysis:
+  1 processes:   1.00x speedup (100.0% efficiency)
+  2 processes:   2.06x speedup (103.2% efficiency)
+  4 processes:   3.54x speedup ( 88.6% efficiency)
+  8 processes:   6.94x speedup ( 86.8% efficiency)
+ 16 processes:  12.31x speedup ( 76.9% efficiency)
+
+
+Lattice Size 500x500:
+----------------------------------------
+ Processes     Time (s)   Iterations
+         1       40.543           10
+         2       20.272           10
+         4       11.806           10
+         8        5.778           10
+        16        2.960           10
+
+Speedup Analysis:
+  1 processes:   1.00x speedup (100.0% efficiency)
+  2 processes:   2.00x speedup (100.0% efficiency)
+  4 processes:   3.43x speedup ( 85.9% efficiency)
+  8 processes:   7.02x speedup ( 87.7% efficiency)
+ 16 processes:  13.70x speedup ( 85.6% efficiency)
+
+
+Lattice Size 1000x1000:
+----------------------------------------
+ Processes     Time (s)   Iterations
+         1       78.415            5
+         2       41.002            5
+         4       23.824            5
+         8       11.748            5
+        16        5.912            5
+
+Speedup Analysis:
+  1 processes:   1.00x speedup (100.0% efficiency)
+  2 processes:   1.91x speedup ( 95.6% efficiency)
+  4 processes:   3.29x speedup ( 82.3% efficiency)
+  8 processes:   6.67x speedup ( 83.4% efficiency)
+ 16 processes:  13.26x speedup ( 82.9% efficiency)
+
+
+Lattice Size 2000x2000:
+----------------------------------------
+ Processes     Time (s)   Iterations
+         2       98.576            3
+         4       57.318            3
+         8       28.278            3
+        16       14.105            3
+

@@ -1,0 +1,23 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"languages/python/3.10"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "languages/python/3.10"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Running benchmark with 1 processes
+/tmp/slurmd/job10636882/slurm_script: line 27: mpiexec: command not found
+Running benchmark with 2 processes
+/tmp/slurmd/job10636882/slurm_script: line 27: mpiexec: command not found
+Running benchmark with 4 processes
+/tmp/slurmd/job10636882/slurm_script: line 27: mpiexec: command not found
+Running benchmark with 8 processes
+/tmp/slurmd/job10636882/slurm_script: line 27: mpiexec: command not found
+Running benchmark with 16 processes
+/tmp/slurmd/job10636882/slurm_script: line 27: mpiexec: command not found
+/tmp/slurmd/job10636882/slurm_script: line 31: python: command not found

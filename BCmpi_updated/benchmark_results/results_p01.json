@@ -1,0 +1,37 @@
+[
+  {
+    "size": 50,
+    "processes": 1,
+    "iterations": 20,
+    "total_time": 0.7171645260000332,
+    "time_per_step": 0.03585822630000166
+  },
+  {
+    "size": 100,
+    "processes": 1,
+    "iterations": 15,
+    "total_time": 2.131492538999737,
+    "time_per_step": 0.14209950259998247
+  },
+  {
+    "size": 200,
+    "processes": 1,
+    "iterations": 10,
+    "total_time": 5.661103258999901,
+    "time_per_step": 0.5661103258999901
+  },
+  {
+    "size": 500,
+    "processes": 1,
+    "iterations": 10,
+    "total_time": 36.27569311499974,
+    "time_per_step": 3.627569311499974
+  },
+  {
+    "size": 1000,
+    "processes": 1,
+    "iterations": 5,
+    "total_time": 72.73037401199963,
+    "time_per_step": 14.546074802399925
+  }
+]
