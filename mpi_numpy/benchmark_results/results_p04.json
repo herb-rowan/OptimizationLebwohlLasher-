@@ -1,0 +1,86 @@
+[
+  {
+    "size": 10,
+    "processes": 4,
+    "iterations": 1,
+    "total_time": 0.004889362249969054,
+    "time_per_step": 0.004889362249969054
+  },
+  {
+    "size": 15,
+    "processes": 4,
+    "iterations": 1,
+    "total_time": 0.00957399325005781,
+    "time_per_step": 0.00957399325005781
+  },
+  {
+    "size": 23,
+    "processes": 4,
+    "iterations": 1,
+    "total_time": 0.02126393674996052,
+    "time_per_step": 0.02126393674996052
+  },
+  {
+    "size": 35,
+    "processes": 4,
+    "iterations": 1,
+    "total_time": 0.04796206425004357,
+    "time_per_step": 0.04796206425004357
+  },
+  {
+    "size": 53,
+    "processes": 4,
+    "iterations": 1,
+    "total_time": 0.11328429850004795,
+    "time_per_step": 0.11328429850004795
+  },
+  {
+    "size": 81,
+    "processes": 4,
+    "iterations": 1,
+    "total_time": 0.26729992549991266,
+    "time_per_step": 0.26729992549991266
+  },
+  {
+    "size": 123,
+    "processes": 4,
+    "iterations": 1,
+    "total_time": 0.6139051897499712,
+    "time_per_step": 0.6139051897499712
+  },
+  {
+    "size": 187,
+    "processes": 4,
+    "iterations": 1,
+    "total_time": 1.5656586377498911,
+    "time_per_step": 1.5656586377498911
+  },
+  {
+    "size": 284,
+    "processes": 4,
+    "iterations": 1,
+    "total_time": 3.882768864500008,
+    "time_per_step": 3.882768864500008
+  },
+  {
+    "size": 432,
+    "processes": 4,
+    "iterations": 1,
+    "total_time": 9.880187910250072,
+    "time_per_step": 9.880187910250072
+  },
+  {
+    "size": 657,
+    "processes": 4,
+    "iterations": 1,
+    "total_time": 26.671003585749986,
+    "time_per_step": 26.671003585749986
+  },
+  {
+    "size": 1000,
+    "processes": 4,
+    "iterations": 1,
+    "total_time": 74.55323599149995,
+    "time_per_step": 74.55323599149995
+  }
+]

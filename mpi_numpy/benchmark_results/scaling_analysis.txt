@@ -1,0 +1,89 @@
+Lebwohl-Lasher Parallel Scaling Analysis
+=====================================
+
+Strong Scaling Analysis:
+----------------------
+
+Lattice Size 10x10:
+  1 processes: 0.015 s (speedup: 1.00x, efficiency: 100.00%)
+  2 processes: 0.008 s (speedup: 1.99x, efficiency: 99.43%)
+  4 processes: 0.005 s (speedup: 3.13x, efficiency: 78.24%)
+  8 processes: 0.005 s (speedup: 3.28x, efficiency: 40.97%)
+  16 processes: 0.004 s (speedup: 3.55x, efficiency: 22.21%)
+
+Lattice Size 15x15:
+  1 processes: 0.033 s (speedup: 1.00x, efficiency: 100.00%)
+  2 processes: 0.018 s (speedup: 1.86x, efficiency: 92.89%)
+  4 processes: 0.010 s (speedup: 3.48x, efficiency: 87.02%)
+  8 processes: 0.006 s (speedup: 5.15x, efficiency: 64.43%)
+  16 processes: 0.005 s (speedup: 6.49x, efficiency: 40.57%)
+
+Lattice Size 23x23:
+  1 processes: 0.079 s (speedup: 1.00x, efficiency: 100.00%)
+  2 processes: 0.041 s (speedup: 1.91x, efficiency: 95.54%)
+  4 processes: 0.021 s (speedup: 3.72x, efficiency: 92.90%)
+  8 processes: 0.013 s (speedup: 5.89x, efficiency: 73.58%)
+  16 processes: 0.010 s (speedup: 7.72x, efficiency: 48.26%)
+
+Lattice Size 35x35:
+  1 processes: 0.182 s (speedup: 1.00x, efficiency: 100.00%)
+  2 processes: 0.094 s (speedup: 1.95x, efficiency: 97.29%)
+  4 processes: 0.048 s (speedup: 3.80x, efficiency: 94.94%)
+  8 processes: 0.032 s (speedup: 5.66x, efficiency: 70.80%)
+  16 processes: 0.019 s (speedup: 9.40x, efficiency: 58.78%)
+
+Lattice Size 53x53:
+  1 processes: 0.427 s (speedup: 1.00x, efficiency: 100.00%)
+  2 processes: 0.215 s (speedup: 1.98x, efficiency: 99.14%)
+  4 processes: 0.113 s (speedup: 3.76x, efficiency: 94.12%)
+  8 processes: 0.069 s (speedup: 6.18x, efficiency: 77.25%)
+  16 processes: 0.037 s (speedup: 11.57x, efficiency: 72.28%)
+
+Lattice Size 81x81:
+  1 processes: 1.016 s (speedup: 1.00x, efficiency: 100.00%)
+  2 processes: 0.508 s (speedup: 2.00x, efficiency: 100.08%)
+  4 processes: 0.267 s (speedup: 3.80x, efficiency: 95.01%)
+  8 processes: 0.165 s (speedup: 6.16x, efficiency: 77.03%)
+  16 processes: 0.079 s (speedup: 12.81x, efficiency: 80.08%)
+
+Lattice Size 123x123:
+  1 processes: 2.407 s (speedup: 1.00x, efficiency: 100.00%)
+  2 processes: 1.204 s (speedup: 2.00x, efficiency: 99.95%)
+  4 processes: 0.614 s (speedup: 3.92x, efficiency: 98.01%)
+  8 processes: 0.370 s (speedup: 6.50x, efficiency: 81.26%)
+  16 processes: 0.169 s (speedup: 14.24x, efficiency: 89.02%)
+
+Lattice Size 187x187:
+  1 processes: 6.085 s (speedup: 1.00x, efficiency: 100.00%)
+  2 processes: 3.096 s (speedup: 1.97x, efficiency: 98.28%)
+  4 processes: 1.566 s (speedup: 3.89x, efficiency: 97.17%)
+  8 processes: 0.933 s (speedup: 6.53x, efficiency: 81.57%)
+  16 processes: 0.416 s (speedup: 14.64x, efficiency: 91.51%)
+
+Lattice Size 284x284:
+  1 processes: 14.949 s (speedup: 1.00x, efficiency: 100.00%)
+  2 processes: 7.501 s (speedup: 1.99x, efficiency: 99.65%)
+  4 processes: 3.883 s (speedup: 3.85x, efficiency: 96.25%)
+  8 processes: 2.263 s (speedup: 6.60x, efficiency: 82.55%)
+  16 processes: 1.012 s (speedup: 14.77x, efficiency: 92.29%)
+
+Lattice Size 432x432:
+  1 processes: 38.332 s (speedup: 1.00x, efficiency: 100.00%)
+  2 processes: 19.150 s (speedup: 2.00x, efficiency: 100.08%)
+  4 processes: 9.880 s (speedup: 3.88x, efficiency: 96.99%)
+  8 processes: 5.617 s (speedup: 6.82x, efficiency: 85.31%)
+  16 processes: 2.633 s (speedup: 14.56x, efficiency: 90.97%)
+
+Lattice Size 657x657:
+  1 processes: 102.292 s (speedup: 1.00x, efficiency: 100.00%)
+  2 processes: 52.247 s (speedup: 1.96x, efficiency: 97.89%)
+  4 processes: 26.671 s (speedup: 3.84x, efficiency: 95.88%)
+  8 processes: 14.994 s (speedup: 6.82x, efficiency: 85.28%)
+  16 processes: 6.939 s (speedup: 14.74x, efficiency: 92.13%)
+
+Lattice Size 1000x1000:
+  1 processes: 278.547 s (speedup: 1.00x, efficiency: 100.00%)
+  2 processes: 140.910 s (speedup: 1.98x, efficiency: 98.84%)
+  4 processes: 74.553 s (speedup: 3.74x, efficiency: 93.41%)
+  8 processes: 39.793 s (speedup: 7.00x, efficiency: 87.50%)
+  16 processes: 18.562 s (speedup: 15.01x, efficiency: 93.79%)
