@@ -224,7 +224,7 @@ Ensure that `lebwohl_lasher_benchmark_long.sh` is configured correctly for your 
 
 - **Example `lebwohl_lasher_benchmark_long.sh` setup**:
 
-
+    '''bash
     #!/bin/bash
     # =================
     # lebwohl_lasher_benchmark.sh
