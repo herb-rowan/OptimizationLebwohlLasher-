@@ -266,3 +266,8 @@ In the terminal, execute:
 
 
 python run_parallel_timing.py
+
+
+### There are also some testing scripts, test_mpi, lebwohlasher_test and a .github continugous testing folder, all can be adapted to specific needs. 
+
+### InitialAnalysis replicates the results from the report and performs some profiling. 
