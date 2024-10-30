@@ -9,7 +9,7 @@
 #SBATCH --nodes=4
 #SBATCH --ntasks-per-node=4
 #SBATCH --cpus-per-task=1
-#SBATCH --time=0:30:00        # Increased to 15 minutes for more comprehensive test
+#SBATCH --time=0:30:00        
 #SBATCH --mem-per-cpu=2G
 
 # Load required modules

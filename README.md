@@ -73,40 +73,11 @@ This guide provides instructions for running the Lebwohl-Lasher model files on a
 1. **`LebwohlLasher.py`** - Contains the main code for the Lebwohl-Lasher model.
 2. **`LebwohlLasherNumba.py`** - An optimized Numba implementation of the Lebwohl-Lasher model.
 3. **`benchmark_ll.py`** - A script to benchmark the performance of different implementations.
-4. **`batch.sh`** - A SLURM batch script for submitting the job on an HPC cluster.
 
-## Requirements
-
-Ensure the HPC environment has:
-- **Python 3.12.3** (or compatible version)
-- **NumPy** and **Numba** packages
 
 ## Steps to Run the Project
 
-### 1. Update `batch.sh`
-
-Make sure `batch.sh` is correctly set up for your file and parameters.
-
-
-
-### 2. Submit the Job to the Cluster
-
-- Open a terminal and navigate to the directory containing `batch.sh`.
-- Submit the job with the following command:
-
-
-    sbatch batch.sh
-
-
-This will send the job to the scheduler, which will queue and execute it on the cluster.
-
-### 3. Check Job Status
-
-To monitor the status of your job, use:
-
-
-squeue -u your_username
-
+### 1. Run benchmark_ll.py
 
 # mpi_numpy folder
 
@@ -271,3 +242,5 @@ python run_parallel_timing.py
 ### There are also some testing scripts, test_mpi, lebwohlasher_test and a .github continugous testing folder, all can be adapted to specific needs. 
 
 ### InitialAnalysis replicates the results from the report and performs some profiling. 
+
+### My report is also included under HPC_report
