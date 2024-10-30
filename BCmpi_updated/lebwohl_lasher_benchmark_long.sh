@@ -44,3 +44,5 @@ done
 
 # Generate plots from all results
 python plot_benchmark_results.py
+
+
